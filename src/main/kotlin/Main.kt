@@ -1,3 +1,7 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    // Создаем экземпляр главного меню (меню архивов)
+    val app = ArchiveMenu()
+
+    // Запускаем приложение
+    app.start()
 }
